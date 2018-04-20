@@ -1,0 +1,11 @@
+Functions That work properly
+- addFront() works correctly
+- size() works correctly
+- search() works correctly
+
+
+Functions not working properly
+- addBack() -- doesn't work because it is adding to the list but it is adding the same way as add front is and not how addBack should add
+- isEmpty() -- Does not work because it returns true even if elements are within the list and it should return false. I assume it is not referencing the correct size.
+- removeBack() -- Not reading list properly, removeBack should only return false if the list is empty but it always returns false even if elements were added to list. I think the function is not accessing/update the size of the list and it is stuck at 0.
+- removeFront() -- Not reading list properly, removeFront should only return false if the list is empty but it always returns false even if elements were added to list. I think the function is not accessing/update the size of the list and it is stuck at 0.
